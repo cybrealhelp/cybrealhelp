@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cybReal Parental Monitoring App</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #d34419 0%, #f89a3c 100%);
+      color: #fff;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      margin-top: 32px;
+      margin-bottom: 20px;
+      width: 220px;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: 0 4px 20px 0 rgba(211, 68, 25, 0.20);
+    }
+    .headline {
+      font-size: 2.1em;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 14px;
+      letter-spacing: 0.1em;
+      color: #fff5f1;
+      text-shadow: 0 1px 8px #d34419;
+    }
+    .pre-reg {
+      font-size: 1.17em;
+      font-weight: 600;
+      margin-bottom: 24px;
+      color: #ffe9d2;
+      background: #d34419;
+      border-radius: 16px;
+      padding: 8px 20px;
+      display: inline-block;
+      box-shadow: 0 2px 12px 0 rgba(211,68,25,0.15);
+      letter-spacing: 0.07em;
+    }
+    .main-msg {
+      font-size: 1.13em;
+      text-align: center;
+      margin-bottom: 26px;
+      line-height: 1.7;
+      color: #fff9f5;
+      padding: 0 12px;
+    }
+    .features, .trust, .cta, .faq, .footer {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 16px 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 8px 0 rgba(211,68,25,0.10);
+      width: 100%;
+      max-width: 720px;
+    }
+    .section-title {
+      font-size: 1.15em;
+      font-weight: 600;
+      margin-bottom: 8px;
+      letter-spacing: 0.06em;
+      color: #ffd1a2;
+    }
+    .features-list, .trust-list, .faq-list {
+      margin: 0;
+      padding: 0 0 0 15px;
+      color: #fff;
+    }
+    .features-list li, .trust-list li, .faq-list li {
+      margin-bottom: 10px;
+      font-size: 1.04em;
+      line-height: 1.5;
+      list-style: disc;
+    }
+    .cta-btn, .cta-btn-secondary {
+      display: inline-block;
+      background: linear-gradient(90deg, #d34419 60%, #f89a3c 100%);
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 36px;
+      margin: 20px 0 12px 0;
+      border: none;
+      border-radius: 32px;
+      box-shadow: 0 2px 12px 0 rgba(211,68,25,0.10);
+      text-align: center;
+      font-size: 1.17em;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .cta-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #f89a3c 10%, #d34419 99%);
+    }
+    .faq-list li {
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    .footer {
+      text-align: center;
+      font-size: 1em;
+      background: rgba(230, 84, 16, 0.1);
+      color: #ffe9d2;
+      margin-bottom: 0;
+      box-shadow: none;
+    }
+    /* Icons */
+    .icon-group {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 12px;
+    }
+    .feature-icon {
+      width: 38px;
+      height: 38px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    /* Responsive */
+    @media (max-width:600px) {
+      .container {padding: 20px 7px;}
+      .logo {width: 120px; height: 120px;}
+      .headline {font-size: 1.1em;}
+      .section-title, .pre-reg {font-size: 1em;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Company Logo Centered -->
+    <div class="logo">
+      <img src="main.jpg" alt="cybReal Logo" style="width:100%;height:100%;">
+    </div>
+    <div class="headline">Keep Your Family Safe Online – Monitor with Confidence</div>
+    <div class="pre-reg">Pre Registrations coming soon</div>
+    <div class="main-msg">
+      In today’s digital world, keeping your children safe online can feel overwhelming. That’s why we built cybReal—a secure, easy-to-use app that gives you real-time insights into your child’s mobile activity while respecting their privacy. From live camera feeds to location tracking and screen monitoring, our app empowers you to protect what matters most.
+    </div>
+    <div class="features">
+      <div class="section-title">Key Features</div>
+      <div class="icon-group">
+        <!-- Location Icon -->
+        <img class="feature-icon" src="https://img.icons8.com/ios-filled/50/e36410/marker.png" alt="Location">
+        <!-- Lock Icon -->
+        <img class="feature-icon" src="https://img.icons8.com/ios-filled/50/e36410/lock--v1.png" alt="Lock">
+        <!-- Shield/Security Icon -->
+        <img class="feature-icon" src="https://img.icons8.com/ios-filled/50/e36410/security-shield-green.png" alt="Security">
+      </div>
+      <ul class="features-list">
+        <li><strong>Live Monitoring:</strong> Stay connected with live front and back camera feeds, real-time location tracking, and screen activity monitoring—all from one secure dashboard.</li>
+        <li><strong>End-to-End Encryption:</strong> Your family’s data is private and secure. All information is encrypted end-to-end, ensuring only you have access to it.</li>
+        <li><strong>Parental Controls:</strong> Lock apps, restrict access to files, and set time-based controls to guide your child’s digital habits responsibly.</li>
+        <li><strong>Advanced Security:</strong> Our app integrates cutting-edge cybersecurity tools like intrusion detection, malware scanning, and threat intelligence to keep your devices safe from online threats.</li>
+      </ul>
+    </div>
+    <div class="trust">
+      <div class="section-title">Why Choose Us?</div>
+      <ul class="trust-list">
+        <li>We prioritize your family’s privacy with bank-level encryption and transparent data handling.</li>
+        <li>Backed by open-source cybersecurity tools trusted by millions worldwide.</li>
+        <li>Designed by parents, for parents—to give you peace of mind without compromise.</li>
+      </ul>
+    </div>
+    <div class="cta">
+      <div class="section-title">Call-to-Action</div>
+      <div>Join thousands of parents who trust cybReal to keep their families safe. Pre-register now and be the first to experience the future of parental monitoring!</div>
+      <button class="cta-btn" onclick="alert('Pre-Registration coming soon!')">Pre-register</button>
+      <div class="pre-reg">Pre-registrations are now open! Sign up today to secure early access and exclusive launch offers.</div>
+    </div>
+    <div class="faq">
+      <div class="section-title">Common Questions</div>
+      <ul class="faq-list">
+        <li><strong>Is my data secure?</strong><br>Yes, all data is encrypted on the device before being transmitted. Only you can decrypt and view it.</li>
+        <li><strong>Can I monitor multiple devices?</strong><br>Absolutely! You can link up to 3 devices per parent account.</li>
+        <li><strong>Do I need technical expertise to use the app?</strong><br>Not at all! Our app is designed to be user-friendly, so you can focus on what matters most—your family.</li>
+      </ul>
+    </div>
+    <div class="footer">
+      Your family’s safety is our mission. <br>
+      Learn more about how cybReal works and our commitment to privacy.
+    </div>
+  </div>
+  <script>
+    // Javascript for interactive FAQ (optional)
+    document.querySelectorAll('.faq-list li').forEach(function(item){
+      item.addEventListener('click', function() {
+        this.classList.toggle('opened');
+      });
+    });
+  </script>
+</body>
+</html>
